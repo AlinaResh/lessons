@@ -1,0 +1,82 @@
+/* @import url("reset.css"); */
+
+/* body {
+	font-size: 20px;
+}
+
+div.block {
+	color:darksalmon;
+}
+
+p.ppp {
+	margin: 100px 50px 100px 20px;
+}
+
+.link {
+  color: deeppink;
+}
+
+h3.title {
+  color: aqua;
+}
+
+ul.list {
+	color:darkgreen;
+}
+
+.list .olol li {
+	margin: 0 0 0 50px;
+	color:black;
+}
+
+#main {
+	color:brown;
+}
+
+.list li + li {
+	color:chocolate;
+}
+
+li.punkt{
+	/* color:blueviolet; */
+/* }
+
+[class*="title"] {
+	color:blue
+} */
+
+h1,
+h2 {
+  color: crimson;
+}
+
+.block h2 ~ p,
+.block h2 ~ p a {
+  color: chartreuse;
+}
+
+
+.list li {
+	color:red;
+}
+
+
+.list li ol li {
+	color:green;
+}
+
+.list li ol li ul li {
+	color:blue;
+}
+
+.list li ol li ul li +li {
+	color:purple;
+}
+
+.list li ol li ul li +li +li {
+	color:rgb(37, 37, 37);
+}
+
+.title {
+	color:white !important;
+}
