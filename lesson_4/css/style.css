@@ -1,0 +1,193 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+#head {
+	background-color: #ffc0f5;
+}
+
+.id_title {
+	color:rgb(255, 0, 179);
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 50px;
+	margin: 0 0 20px 0;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 0 10px 30px rgb(255, 0, 179);
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.img_head {
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+/* Статья INTEGRITY TOYS */
+
+.integrity_toys {
+	background-color: #ffc0f5;
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.title_0 {
+	color:darkorchid;
+	margin: 0 0 20px 50px;
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.img_1 {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.paragraf_1 {
+	color:black;
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+.title_1 {
+	color:rgb(0, 255, 136);
+	margin: 0 0 20px 100px;
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.list_payment {
+	color:black;
+	margin: 0 0 50px 50px;
+	max-width: 800px;
+}
+
+.title_2 {
+	color:deeppink;
+	margin: 0 100px 20px 0;
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 25px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.img_2 {
+	margin: 0 50px 20px 0;
+	text-align: right;
+}
+
+.list_includet {
+	margin: 0 50px 50px 0;
+	text-align: right;
+}
+
+.title_note {
+	color:coral;
+	margin: 0 0 200px 50px;
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 20px;
+	text-align: center;
+	line-height: 2;
+}
+
+
+
+
+/* KROVATO */
+
+.home_work {
+	background-color: #feeded;
+	font-family: "Proxima Nova";
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/* Пункт_4 */
+
+.home_work_4 {
+	color:#2B2929;
+}
+
+.title_4 {
+	margin: 0 auto 30px auto;
+	max-width: 960px;
+	text-align: center;
+}
+
+.text_4 {
+	margin: 0 auto 70px auto;
+	max-width: 960px;
+}
+
+/* Пункт_5 */
+
+.home_work_5 {
+	color:#2B2929;
+}
+
+.home_work .title_4, .title_5, .title_5_list {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+
+.title_5 {
+	margin: 0 auto 40px auto;
+	max-width: 1070px;
+}
+
+.img_5 {
+	margin: 0 auto 40px auto;
+	max-width: 1070px;
+}
+
+.text_5_1 {
+	margin: 0 auto 40px auto;
+	max-width: 1070px;
+}
+
+.title_5_list {
+	margin: 0 auto 30px auto;
+	max-width: 1070px;
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.list_5 {
+	margin: 0 auto 40px auto;
+	max-width: 1070px;
+}
+
+.text_5_2 {
+	max-width: 1070px;
+	margin: 0 auto 40px auto;
+
+}
+
+
+
+/* Footer */
+.text_footer {
+	color:#B1B1B1;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	background-color: #2B2929;
+}
+
+
+
+
+
+
+
+
+
