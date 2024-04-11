@@ -1,0 +1,363 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.logo {
+  background-color: #000001;
+  text-align: center;
+  padding: 25px 0;
+}
+
+/* Home work #1 */
+
+.home_work_1 {
+  background: url("../img/about.jpg") center / cover no-repeat;
+  font-family: "Exo", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.home_work_1 .container {
+  width: 992px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.home_work_1 .title {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 116.66%;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.home_work_1 .title::after {
+  content: "";
+  margin-top: 20px;
+  display: block;
+  height: 1px;
+  margin-left: -50px;
+  margin-right: -50px;
+  background: linear-gradient(to right, #ff0000, #42ff00, #2400ff);
+}
+
+.home_work_1 .text {
+  font-size: 18px;
+  line-height: 222.22%;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.home_work_1 .container_1 {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.home_work_1 .list {
+  color: #fff;
+  font-family: "Orbitron", serif;
+  font-weight: 500;
+  line-height: 125%;
+  text-transform: capitalize;
+  font-size: 0px;
+  text-align: center;
+}
+
+.home_work_1 .list li::after {
+  content: "";
+  display: inline-block;
+  background-image: linear-gradient(to right, red, green, blue);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 60px;
+}
+
+.home_work_1 li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.home_work_1 li:last-child::after {
+  margin-right: 0px;
+}
+
+/* Home work #2 */
+
+.home_work_2 {
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: #f8f8f8;
+  padding: 40px;
+}
+
+.home_work_2 .container > *:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.home_work_2 .container {
+  margin: 0 auto;
+  max-width: 1070px;
+}
+
+.home_work_2 .title {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.home_work_2 img {
+  text-align: center;
+  width: 100%;
+}
+
+.home_work_2 .text > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.home_work_2 .title_1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.home_work_2 .list li::before {
+  content: "";
+  background-image: url("../img/mark.svg");
+  display: inline-block;
+  vertical-align: middle;
+  height: 32px;
+  width: 32px;
+  margin-right: 15px;
+  margin-left: -50px;
+  background-repeat: no-repeat;
+}
+
+.home_work_2 li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.home_work_2 li {
+  padding-left: 47px;
+}
+
+.home_work_3 {
+  color: #42ff00;
+  text-align: center;
+  font-family: "Orbitron", serif;
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.button_g {
+  margin: 50px auto;
+}
+
+.button_g a {
+  text-align: center;
+  border: 10px solid #2400ff;
+  border-radius: 50px 0 50px 0;
+  background-color: #f7fe7b;
+  padding: 20px 50px;
+}
+
+.button_g a:hover {
+  color: #ff00ea;
+  border-radius: 50px 0 50px 0;
+  background-color: #ca7bfe;
+}
+
+.button_g a:active {
+  color: #ff0000;
+  border-radius: 50px 0 50px 0;
+  background-color: #ff5e00;
+}
+
+.button_g a:focus-visible {
+  border-radius: 50px 0 50px 0;
+  background-color: #989898;
+}
+
+/* Game */
+
+.title_g {
+  display: inline-block;
+  font-family: "Orbitron", serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 150px;
+  text-align: center;
+  border-left: 10px dotted #ff0000;
+  border-top: 10px dashed #48ff00;
+  border-right: 10px double #0d00ff;
+  border-bottom: 10px solid #ff00ee;
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+.head {
+  text-align: center;
+  background-color: #7beafe;
+}
+
+.game {
+  background-color: #f7fe7b;
+}
+.lines {
+  display: inline-block;
+}
+
+.button {
+  background-color: #ddff00;
+  margin-bottom: -60px;
+  height: 60px;
+  width: 100px;
+}
+
+.button:hover + .line_1,
+.line_1:hover {
+	visibility: visible;
+}
+
+.line_1:hover + .line_2,
+.line_2:hover {
+	visibility: visible;
+}
+
+.line_2:hover + .line_3,
+.line_3:hover {
+	visibility: visible;
+}
+
+.line_3:hover + .line_4,
+.line_4:hover {
+	visibility: visible;
+}
+
+.line_4:hover + .line_5,
+.line_5:hover {
+	visibility: visible;
+}
+
+.line_5:hover + .line_6,
+.line_6:hover {
+	visibility: visible;
+}
+.line_6:hover + .finish,
+.finish:hover {
+	visibility: visible;
+}
+
+/* .box:hover,
+.box:hover + .box {
+  visibility: visible;
+} */
+
+.finish {
+  text-align: center;
+  display: inline-block;
+  height: 400px;
+  border: 10px solid #42ff00;
+  /* background-repeat:no-repeat; */
+  margin: o auto;
+}
+
+.line_1 {
+  background-color: #ff00ea;
+  margin-left: 100px;
+  height: 60px;
+  width: 1000px;
+  visibility: hidden;
+}
+
+.line_2 {
+  background-color: #ff00ea;
+  margin-left: 1050px;
+  height: 200px;
+  width: 50px;
+  visibility: hidden;
+}
+
+.line_3 {
+  background-color: #ff00ea;
+  margin-left: 800px;
+  height: 30px;
+  width: 300px;
+  visibility: hidden;
+}
+
+.line_4 {
+  background-color: #ff00ea;
+  margin-left: 800px;
+  height: 100px;
+  width: 30px;
+  visibility: hidden;
+}
+
+.line_5 {
+  background-color: #ff00ea;
+  margin-left: 800px;
+  height: 20px;
+  width: 150px;
+  visibility: hidden;
+}
+
+.line_6 {
+  background-color: #ff00ea;
+  margin-left: 935px;
+  height: 50px;
+  width: 15px;
+  visibility: hidden;
+}
+
+.finish {
+  height: 200px;
+  width: 2000px;
+  background-image: url(../img/img.jpg);
+  /* background-color:#ff00ea; */
+  visibility: hidden;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #000001;
+  font-family: "Exo", sans-serif;
+  color: #ffffff;
+  font-size: 0px;
+  text-align: center;
+  padding: 80px 0 111px;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 80px;
+  font-size: 0px;
+}
+
+.footer li a {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.footer li::before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.footer .call::before {
+  background-image: url("../img/call.svg");
+}
+.footer .location::before {
+  background-image: url("../img/location.svg");
+}
+.footer .email::before {
+  background-image: url("../img/email.svg");
+}
