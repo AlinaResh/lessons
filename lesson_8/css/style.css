@@ -1,0 +1,87 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.head {
+	background-color: #f1aaff;
+	font-family: "Exo", sans-serif;
+	color: #2B2929;
+	font-size: 100px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.main {
+	background-color: #F8F8F8;
+	font-family: "Proxima Nova", sans-serif;
+	color: #2B2929;
+	text-align: center;
+}
+
+.png {
+	margin-bottom: 100px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 40px;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+
+.block {
+	display: inline-block;
+	background-color:#fdc9fe;
+	padding: 50px;
+	border: 10px dotted #faff70;
+	border-radius: 100px;
+}
+
+.svg {
+	margin-bottom: 100px;
+}
+
+.img_svg-1 .img_svg_wrapper {
+	display: inline-block;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	height: 150px;
+	width: 150px;
+}
+
+.img_svg-1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.img_svg-2 .img_svg_wrapper {
+	display: inline-block;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	height: 120px;
+	width: 120px;
+}
+
+.img_svg-2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.img_svg {
+	margin-right: -50px;
+	margin-bottom: -50px;
+}
+
+ .bg_svg_wrapper {
+	background-image: url("../img/question.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100px;
+	min-height: 100px;
+}
+
+
+.jpeg-x {
+	display: block;
+	border-radius: 20px;
+	overflow: hidden;
+}
