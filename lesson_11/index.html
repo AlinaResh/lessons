@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_11 </title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="main__container">
+				<div class="main__2d">
+					<h2 class="main__title">Трансформація 2D </h2>
+					<ul class="main__items-2d">
+						<li class="main__item-2d">
+							<div class="main__block2d-1">transform: translate(20%,10%);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-2">transform: scale(1.5);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-3">transform: scale(-1, 1);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-4">transform: rotate(90deg);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-5">transform: rotate(-360deg);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-6">transform: skew(40deg,10deg);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-7">transform: skewX(-40deg);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-8">transform: translate(10%,5%) scale(0.3) rotate(50deg);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-9">	transform-origin: left;
+								transform: rotate(90deg);</div>
+						</li>
+						<li class="main__item-2d">
+							<div class="main__block2d-10">	border-radius: 100%;
+								transform-origin: left;
+								transform: translate(60%,20%) scale(1.5) rotate(180deg);</div>
+						</li>
+					</ul>
+				</div>
+				<div class="main__3d">
+					<h2 class="main__title">Трансформація 3D </h2>
+					<ul class="main__items-3d">
+						<li class="main__item-3d--1">
+							<div class="main__block3d-1">transform: translate3d(30px, 30px, 10px);</div>
+						</li>
+						<li class="main__item-3d--2">
+							<div class="main__block3d-2">transform: rotate3d(50, 30, 50, 50deg);</div>
+						</li>
+						<li class="main__item-3d--3">
+							<div class="main__block3d-3">transform: scale3d(2,2,3);</div>
+						</li>
+						<li class="main__item-3d--4">
+							<div class="main__block3d-4">transform: translate3d(20px,20px,80px) rotate3d(2,3,3,20deg);</div>
+						</li>
+						<li class="main__item-3d--5">
+							<div class="main__block3d-5">.main__item-3d--5 {
+								perspective: 200px;
+								transform-style: preserve-3d;
+							}
+							.main__block3d-5:hover {
+								transform: rotateX(-180deg);
+							}</div>
+						</li>
+						<li class="main__item-3d--6">
+							<div class="main__block3d-6">
+								transform: rotateY(-45deg);
+							</div>
+						</li>
+						<li class="main__item-3d--7">
+							<div class="main__block3d-7">
+								transform: rotateY(-180deg);<br><br>
+								backface-visibility: hidden;
+							</div>
+						</li>
+						<li class="main__item-3d--8">
+							<div class="main__block3d-8 main__block3d-8--front">FRONT</div>
+							<div class="main__block3d-8 main__block3d-8--back">BACK</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<h2 class="main__title">
+				<a target="_blank" href="dragon.html">Dragon</a>
+			</h2>
+		</footer>
+	</div>
+</body>
+
+</html>
+
+<!-- Часті слова -->
+<!--
+				container - обмежуючий контейнер (block__container)
+				body, content - головна частина блоку (block__body)
+				row - рядок
+				column - колонка
+				link - посилання
+				title - заголовок
+				sub-title - підзаголовок
+				label - ще заголовок
+				text - текст
+				list - список
+				items - багато якихось елементів
+				item - будь-що
+				menu
+				block
+				button
+				picture, image, img
+				section
+				article
+				unit -
+				actions, action
+				value
+				search
+				form
+				page
+				box
+			 -->
